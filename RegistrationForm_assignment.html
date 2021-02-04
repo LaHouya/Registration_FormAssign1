@@ -1,0 +1,32 @@
+<form action="process.php" method="post">
+    <p>Please Register</p>
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name">
+   
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name">
+   
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+
+    <label for="password"> Password:</label>
+    <input type="text" id="password" name="password">
+
+    <label for="password_confirmation"> pw_confirm:</label>
+    <input type="text" id="password_confirmation" name="pw_confirm">
+   
+    <p>Select your gender:</p>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+   
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+    
+    <label for="decline">Prefer not to say</label>
+    <input type="radio" id="decline" name="gender" value="decline">
+   
+    <p>Say a few words about yourself:</p>
+    <textarea name="description"></textarea>
+   
+   <input type="submit" value="Click here to register">
+</form>
